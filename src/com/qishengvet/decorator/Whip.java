@@ -21,6 +21,7 @@ public class Whip extends CondimentDecorator {
 
 	public Whip(Beverage beverage) {
 		this.beverage = beverage;
+		// 将beverage的size 传递给本对象
 		setSize(this.beverage.getSize());
 
 		switch (size) {
